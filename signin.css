@@ -1,0 +1,53 @@
+body{
+    background-image: url("bg.jpg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+form{
+    background-color:rgb(91, 85, 100,0.3);
+    width:40%;
+    height: 70%;
+    margin-top: 50px;
+    box-shadow: 1px ;
+    backdrop-filter: blur(10px);
+    
+    
+}
+input{
+    background-color: transparent;
+    border-radius: 10px;
+    color: azure;
+    padding: 5px;
+    font-size: 16px;
+    width: 60%;
+
+}
+input::placeholder{
+    color:azure;
+    font-size: 16px;
+}
+
+.buttons{
+    margin-top: 70px;
+}
+
+button{
+    background-color: rgba(29, 28, 36, 0.952);
+    color: azure;
+    width: 50%;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+button:hover{
+    background-color: rgba(21, 20, 26, 0.952);
+
+}
