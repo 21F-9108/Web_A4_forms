@@ -13,7 +13,7 @@ body{
 form{
     background-color:rgb(91, 85, 100,0.3);
     width:80%;
-    height: 80%;
+    height: 85%;
     margin-top: 50px;
     box-shadow: 1px ;
     backdrop-filter: blur(10px);
@@ -60,4 +60,9 @@ button{
 button:hover{
     background-color: rgba(21, 20, 26, 0.952);
 
+}
+h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
 }
